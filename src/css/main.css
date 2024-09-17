@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background: #2a9d8f;
 }
 
 a {
@@ -11,4 +12,16 @@ a {
 img,
 video {
   display: block;
+}
+
+.box {
+  background: #264653;
+}
+
+.section section-1 {
+  display: inline;
+  height: 170px;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
 }
