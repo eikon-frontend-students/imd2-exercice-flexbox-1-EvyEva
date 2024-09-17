@@ -1,8 +1,12 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background: #2a9d8f;
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.263px;
+  gap: 40px;
 }
 
 a {
@@ -16,12 +20,39 @@ video {
 
 .box {
   background: #264653;
+  padding: 40px;
 }
 
-.section section-1 {
-  display: inline;
-  height: 170px;
+.section {
+  background: #2a9d8f;
   padding: 20px;
+}
+
+.section-1 {
+  display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.section-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
